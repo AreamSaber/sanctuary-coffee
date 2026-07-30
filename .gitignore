@@ -1,0 +1,72 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# Build / runtime
+out/
+target/
+**/target/
+backend/target/
+frontend/dist/
+frontend/node_modules/
+bin/
+.kotlin/
+
+# Local / env secrets
+local.properties
+.env
+.env.*
+!.env.example
+application-local.yml
+**/application-local.yml
+
+# Logs & temp
+*.log
+tmp/
+.uploads/
+uploads/
+runtime-logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI / agent tooling traces
+.ace-tool/
+.agents/
+.claude/
+.cursor/
+.codex/
+.kiro/
+.agent/
+.trae/
+.windsurf/
+.roo/
+.gemini/
+.shared/
+.spectrai-logs/
+openspec/
+AGENTS.md
+CLAUDE.md
+nu_
+
+# Design drafts / slides / unrelated
+design-*.html
+*.pptx
+Sanctuary_Coffee*.pptx
+docs/archived/
+docs/*开发文档*
+docs/*审查*
+
+# Junk root sample only (IDE Hello World) — do NOT ignore backend/src or frontend/src
+/src/
+
+# Backend local args dumps
+backend/backend-java-args.txt
+backend/.idea/
+
+# Maven wrapper jar is OK to keep; ignore local m2 if any
+.m2/
