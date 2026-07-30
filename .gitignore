@@ -70,3 +70,6 @@ backend/.idea/
 
 # Maven wrapper jar is OK to keep; ignore local m2 if any
 .m2/
+
+docs/**/*开发*.md
+docs/**/*审查*.md
